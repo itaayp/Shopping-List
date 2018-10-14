@@ -1,7 +1,7 @@
 var shoppingList = new Vue({
     el: '#shopping-list',
     data: {
-        header: 'Vue is ready to party',
+        header: 'Shopping List App',
         newItem: '',
         state: 'default',
         items : [

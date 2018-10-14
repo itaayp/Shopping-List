@@ -15,9 +15,10 @@
 
         <div v-if="state === 'edit'" class="add-item-form">
             <input type="text" v-model="newItem" placeholder="Add an item" @keyup.enter="saveItem">
-            <button class="btn btn-primary" @click="saveItem" :disabled="newItem.length === 0">Save Item</button>
+            <button class="btn btn-save" @click="saveItem" :disabled="newItem.length === 0">Save Item</button>
+            <br>
+            <a v-bind:href="newItem" target="_blanck">Type some URL and click on me</a>
         </div>
-        <a v-bind:href="newItem" target="_blanck">Dynamic Link</a>        
         
         <ul>
             <!--Using the both ways of vue.js dynamic classes-->
