@@ -1,0 +1,42 @@
+.btn-cancel {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
+
+.btn-primary{
+    background-color: blue;
+    color: white;
+    border: 1px solid #0099cc;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+}
+
+button:disabled, button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+button:hover {
+    border: 1px solid #0099cc;
+    background-color: #00aacc;
+    color: #ffffff;
+    padding: 5px 10px;
+  }
+
+  .strikeout{
+      color: gray;
+      text-decoration: line-through;
+  }
+
+  .priority{
+      color: orangered;
+  }
+
+  li{
+      cursor: pointer;
+  }
